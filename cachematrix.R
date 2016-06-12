@@ -19,7 +19,6 @@ inv = NULL
 
 cacheSolve <- function(x, ...) {
        inv = x$getinv()
-       
         if (!is.null(inv)){
                return(inv)
         }
